@@ -13,6 +13,16 @@ Scapetown is one of the largest escape rooms in the world, created by secondary 
 
 ## Protocol specification
 
+> **Legend:**
+>
+> `-->` ardruino-to-server (send)
+>
+> `<--` server-to-ardruino (receive)
+> 
+> `<-->` ardruino-to-server and server-to-ardruino (send and receive)
+
+`-->`
+
 | key       | type     | desc                                             |
 |-----------|----------|--------------------------------------------------|
 | `@`       | `string` | Show first character as a '*'                    |
@@ -25,6 +35,12 @@ Scapetown is one of the largest escape rooms in the world, created by secondary 
 | `(`       | `string` | Set servo (door) to OPEN position                |
 | `)`       | `string` | Set servo (door) to CLOSE position               |
 | `*`       | `string` | write other character at current cursor position |
+
+`<--`
+| key       | type     | desc                                             |
+|-----------|----------|--------------------------------------------------|
+| `*`       | `string` | Send any character and display it on the LCD     |
+
 
 ## Required
 
