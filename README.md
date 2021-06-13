@@ -16,7 +16,16 @@ Scapetown is one of the largest escape rooms in the world, created by secondary 
 - platform IO
 
 ## Setup
-<img src="https://raw.githubusercontent.com/Scapetown/keypad/main/schema.png" width="300" alt="schema" />
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Scapetown/keypad/main/schema.png" width="800" alt="schema" />
+</p>
+
+#### part list
+
+- Arduino Uno
+- 9g Micro Servo
+- LCD Display Screen 16x2 I2C
+- Membrane 3x4 Matrix Keypad
 
 ## Protocol specification
 
