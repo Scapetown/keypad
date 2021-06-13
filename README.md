@@ -11,6 +11,13 @@ Ardruino firmware for controlling the lock door.
 #### What is scapetown?
 Scapetown is one of the largest escape rooms in the world, created by secondary school students. [Learn more](https://jegaathetmaken.nl/scapetown/)
 
+## Required
+
+- platform IO
+
+## Setup
+<img src="https://raw.githubusercontent.com/Scapetown/keypad/main/schema.png" width="300" alt="schema" />
+
 ## Protocol specification
 
 > **Legend:**
@@ -41,10 +48,6 @@ Scapetown is one of the largest escape rooms in the world, created by secondary 
 |-----------|----------|--------------------------------------------------|
 | `*`       | `string` | Send any character and display it on the LCD     |
 
-
-## Required
-
-- platform IO
 
 ## Author
 - [Martijn Faber](https://github.com/Martijn-Faber)
